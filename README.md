@@ -20,4 +20,19 @@ conda activate snip
 pip3 install -r requirements.txt
 ```
 
+## STEP-04 Create .env file and put the creds
+Create a .env file in the root directory and add your OPENAI_API_KEY credentials as follows:
+OPENAI_API_KEY = "xxxxxxxxx"
 
+## STEP-05 Finally run the following command
+python3 app.py
+
+#### open up localhost:
+
+### Techstack Used:
+- Python
+- LangChain
+- Flask
+- OpenAI
+- GPT 3.5 Turbo
+- ChoromaDB
